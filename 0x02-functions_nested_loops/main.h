@@ -4,6 +4,7 @@
 /**
  * _putchar - prints input using standard i/o library
  * @c: the character to print
+ * Return: Always 0 (Success)
  *
  * print_alphabet - print all lowercase alphabets
  *
@@ -13,6 +14,5 @@
  * Author: Remilekun Olayinka
  * A header file containting function prototypes
  */
-
 int _putchar(char c);
 #endif
