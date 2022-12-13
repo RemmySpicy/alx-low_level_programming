@@ -10,7 +10,9 @@
  *
  * print_alphabet_x10 - print all alphabets in lowercase ten times
  *
- * -islower - print 1 is input is lowercase, 0 if not lowercase
+ * _islower - print 1 if input is lowercase, 0 if not lowercase
+ *
+ * _isalpha - print 1 if input is alphabet, 0 if not 
  *
  * File: main.h
  * Author: Remilekun Olayinka
@@ -20,4 +22,5 @@ int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int input);
+int _isalpha(int c);
 #endif
