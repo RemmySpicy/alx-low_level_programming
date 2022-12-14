@@ -14,6 +14,8 @@
  *
  * _isalpha - print 1 if input is alphabet, 0 if not 
  *
+ * print_sign - Print 1 if input is greater than 0, 0 wehen it's 0, and -1 when it's lesser than 0
+ *
  * File: main.h
  * Author: Remilekun Olayinka
  * A header file containting function prototypes
@@ -23,4 +25,5 @@ void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int input);
 int _isalpha(int c);
+int print_sign(int c);
 #endif
