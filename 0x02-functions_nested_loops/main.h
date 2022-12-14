@@ -16,6 +16,18 @@
  *
  * print_sign - Print 1 if input is greater than 0, 0 wehen it's 0, and -1 when it's lesser than 0
  *
+ * _abs(int n) -
+ *
+ * print_last_digit -
+ *
+ * jack_bauer -
+ *
+ * times_table -
+ *
+ * add -
+ *
+ * print_to_98 -
+ *
  * File: main.h
  * Author: Remilekun Olayinka
  * A header file containting function prototypes
@@ -26,4 +38,10 @@ void print_alphabet_x10(void);
 int _islower(int input);
 int _isalpha(int c);
 int print_sign(int c);
+int _abs(int n);
+int print_last_digit(int n);
+void jack_bauer(void);
+void times_table(void);
+int add(int, int);
+void print_to_98(int n);
 #endif
