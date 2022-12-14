@@ -28,6 +28,8 @@
  *
  * print_to_98 -
  *
+ * print_times_table -
+ *
  * File: main.h
  * Author: Remilekun Olayinka
  * A header file containting function prototypes
@@ -44,4 +46,5 @@ void jack_bauer(void);
 void times_table(void);
 int add(int, int);
 void print_to_98(int n);
+void print_times_table(int n);
 #endif
